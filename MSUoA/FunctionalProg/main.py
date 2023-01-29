@@ -315,5 +315,10 @@
 # else:
 #      print('Yes')
 #
+def func(x):
+    return x % 10
 
+
+L = [15, 20, 5, 29, 10]
+print(sorted(L, key=func))
 
